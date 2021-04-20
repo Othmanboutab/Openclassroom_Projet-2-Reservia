@@ -4,7 +4,7 @@ L'objectif est d'intégrer la maquette d'un site de planification de vacance nom
 
 ![maquette web reservia](https://github.com/Othmanboutab/Openclassroom_Projet-2-Reservia/blob/f3b300f520acb23204d1ef5b43bbba499effc2a5/Maquette/Desktop%20-%201.png)
 ## Visualiser le site
-Le code a été versionner sur GIT et déployé sur GITHUB [clique ici]()
+Le code a été versionner sur GIT et déployé sur GITHUB [clique ici](https://othmanboutab.github.io/Openclassroom_Projet-2-Reservia/)
 
 ## Éléments fournis par l'entreprise virtuelle.
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
