@@ -28,6 +28,3 @@ Le code a été versionner sur GIT et déployé sur GITHUB [clique ici](https://
 
 ## Notes sur la réalisation du projet
 - L'integration est faite sur l'éditeur Visual Studio Code avec les plugins [Live server]
-
-## Contact
-Si vous êtes un étudiants OpenClassrooms [devs.coffee](devs.coffee) peut vous être utile.
