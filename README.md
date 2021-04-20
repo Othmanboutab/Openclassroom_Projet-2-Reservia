@@ -2,7 +2,7 @@
 Deuxième projet du parcours développeur web chez OpenClassrooms.
 L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Reservia" (voir l'image ci-dessous).
 
-![maquette web reservia](https://github.com/Othmanboutab/Openclassroom_Projet-2-Reservia-/blob/8154dbaaa35e5650a8a2417ea1a398db3e6c8ece/Maquette/Desktop%20-%201.png)
+![maquette web reservia](https://github.com/Othmanboutab/Openclassroom_Projet-2-Reservia/blob/f3b300f520acb23204d1ef5b43bbba499effc2a5/Maquette/Desktop%20-%201.png)
 ## Visualiser le site
 Le code a été versionner sur GIT et déployé sur GITHUB [clique ici]()
 
