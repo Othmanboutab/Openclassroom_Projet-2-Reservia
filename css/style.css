@@ -350,6 +350,7 @@ main {
   border-radius: 25px 25px 0 0;
   width: 310px;
   height: 135px;
+  object-fit: cover;
 }
 .infohotel:hover {
   -webkit-transform: scale(1.1);
@@ -402,6 +403,8 @@ main {
   float: left;
   padding: 5px;
   border-radius: 20px 0 0 20px;
+  object-fit: cover;
+
 }
 .hotelinfos {
   display: -webkit-box;
@@ -508,12 +511,12 @@ main {
   margin-left: 30px;
   margin-right: 20px;
 }
-.titlelastsection h2 {
+.activitessection h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  width: 100%;
+  font-size: 20px;  
+
 }
-
-
 
 /******************************************** first pic ****************************************************/
 .firstpic {
@@ -540,6 +543,7 @@ main {
   border-right-width: 0px;
   border-top-width: 0px;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
 .firstpic a {
@@ -584,6 +588,8 @@ main {
   border-left-width: 0px;
   border-right-width: 0px;
   margin-bottom: 10px;
+  object-fit: cover;
+
 }
 
 .samepic:hover {
@@ -624,6 +630,8 @@ main {
   border-right-width: 0px;
   border-top-width: 0px;
   margin-bottom: 10px;
+  object-fit: cover;
+
 }
 
 .thirdpic:hover {
@@ -860,6 +868,8 @@ footer div {
     height: 180px;
     padding-left: 0;
     margin-top: -10px;
+  object-fit: cover;
+
   }
   /*******************************************   2 section   *************************************/
   .lespluspopulairessection {
@@ -879,6 +889,8 @@ footer div {
     float: left;
     padding: 5px;
     border-radius: 20px 0 0 20px;
+  object-fit: cover;
+
   }
   .hotelinfos {
     display: -webkit-box;
@@ -983,6 +995,8 @@ footer div {
   .firstpic img {
     width: 100%;
     height: 198px;
+  object-fit: cover;
+
   }
   /******************************************** class="column" ****************************************************/
 
@@ -1007,6 +1021,8 @@ footer div {
   .samepic img {
     width: 100%;
     height: 198px;
+  object-fit: cover;
+
   }
 
   /******************************************** third pic ****************************************************/
@@ -1032,6 +1048,8 @@ footer div {
   .thirdpic img {
     height: 198px;
     width: 100%;
+  object-fit: cover;
+
   }
   /*******************************************   footer   *************************************/
   footer {
@@ -1514,4 +1532,123 @@ footer div {
     width: 340px;
     height: 190px;
   }
+}
+
+@media screen and (min-width:1024px) and (max-width: 1870px) {
+
+  main{
+    display: flex;
+    flex-direction:column;
+  }
+
+  .lespluspopulairessection{
+    margin-left: 0px;
+  }
+
+  .activitessection{
+    margin-left: -30px;
+  }
+
+  .firstpic {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-right:  0px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 250px;
+  }
+  .firstpic img {
+    padding-left: 5px;
+    margin-top: -5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 25px 25px 0 0;
+    width: 340px;
+    height: 190px;
+  }
+  .samepic {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 250px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+  }
+  .samepic img {
+    padding-left: 5px;
+    margin-top: -5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 25px 25px 0 0;
+    width: 340px;
+    height: 190px;
+  }
+  .samepic {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 250px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+  }
+  .samepic img {
+    padding-left: 5px;
+    margin-top: -5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 25px 25px 0 0;
+    width: 340px;
+    height: 190px;
+  }
+  .thirdpic {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 30px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 250px;
+    -webkit-box-shadow: 1px 1px 25px rgb(214, 213, 213);
+    box-shadow: 1px 1px 25px rgb(214, 213, 213);
+  }
+  .thirdpic img {
+    padding-left: 5px;
+    margin-top: -5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 25px 25px 0 0;
+    width: 340px;
+    height: 190px;
+  }
+
+  .column{
+    display:flex;
+    flex-direction:row;
+  }
+
+  .activitessection{
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  footer div{
+    margin-left: 0px;
+  }
+
 }
