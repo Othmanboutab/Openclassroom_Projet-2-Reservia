@@ -693,8 +693,8 @@ footer div {
 
 
 
-/*******************************************   footer   *************************************/
-/*******************************************   footer   *************************************/
+/*******************************************  mode tablette  *************************************/
+/*******************************************  mode tablette   *************************************/
 
 @media screen and (min-width:1024px) and (max-width: 1680px) {
 
@@ -972,12 +972,12 @@ footer div {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    align-items: center;
   }
 
   .column{
     flex-direction: row;
   }
-
 
 
   .titlelastsection {
@@ -991,6 +991,7 @@ footer div {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-left: -5px;
   }
   .activitessection a {
     font-family: "Raleway", sans-serif;
