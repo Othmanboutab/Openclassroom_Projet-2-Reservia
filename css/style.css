@@ -24,6 +24,7 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: 20px;
 }
 .headernav {
   display: -webkit-box;
@@ -49,7 +50,7 @@ header ul {
 
 header a:hover {
   border-top: 3px solid #0065fc;
-  padding-top: 12px;
+  padding-top: 32px;
   color: #0065fc;
 }
 
@@ -74,7 +75,7 @@ a {
 
 .inscrire a:hover {
   border-top: 3px solid #0065fc;
-  padding-top: 12px;
+  padding-top: 32px;
 }
 
 /*******************************************   First section && first title   *************************************/
@@ -784,15 +785,10 @@ footer div {
     justify-content: center;
 
   }
-
-
-
-
-
 }
 /*******************************************  mode tablette   *************************************/
 
-@media screen and (min-width:480px) and (max-width: 1024px) {
+@media screen and (min-width:480px) and (max-width: 1023px) {
 
   main{
     display: flex;
